@@ -12,7 +12,8 @@ namespace eCinema.Core.Interfaces
         void Create(TEntity entity);
         void Delete(TEntity entity);
         List<TEntity> GetAll();
-        TEntity GetById();
+        TEntity GetById(int id);
         void Update(TEntity entity);
+        void Save();
     }
 }

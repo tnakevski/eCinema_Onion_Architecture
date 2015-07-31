@@ -10,29 +10,40 @@ namespace eCinema.Infrastructure.DataMSSQL.Repositories
     public class BaseRepository<TEntity> : IBaseRepository<TEntity>
         where TEntity : class
     {
+        eCinemaDbContext _context;
+        public BaseRepository(eCinemaDbContext context)
+        {
+            _context = context;
+        }
         public void Create(TEntity entity)
         {
-            throw new NotImplementedException();
+            _context.Set<TEntity>().Add(entity);
         }
 
         public void Delete(TEntity entity)
         {
-            throw new NotImplementedException();
+            _context.Set<TEntity>().Remove(entity);
         }
 
         public List<TEntity> GetAll()
         {
-            throw new NotImplementedException();
+            return _context.Set<TEntity>().ToList();
         }
 
-        public TEntity GetById()
+        public TEntity GetById(int id)
         {
-            throw new NotImplementedException();
+            return _context.Set<TEntity>().Find(id);
         }
 
         public void Update(TEntity entity)
         {
             throw new NotImplementedException();
+        }
+
+
+        public void Save()
+        {
+            _context.SaveChanges();
         }
     }
 }

@@ -48,7 +48,15 @@
   <ItemGroup>
     <Compile Include="eCinemaDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\ActorRepository.cs" />
     <Compile Include="Repositories\BaseRepository.cs" />
+    <Compile Include="Repositories\GenreRepository.cs" />
+    <Compile Include="Repositories\HallRepository.cs" />
+    <Compile Include="Repositories\MovieRepository.cs" />
+    <Compile Include="Repositories\RatingRepository.cs" />
+    <Compile Include="Repositories\ShowTimeRepository.cs" />
+    <Compile Include="Repositories\TicketRepository.cs" />
+    <Compile Include="Repositories\UserRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\eCinema.Core\eCinema.Core.csproj">
