@@ -39,10 +39,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Actor.cs" />
+    <Compile Include="Entities\Genre.cs" />
+    <Compile Include="Entities\Hall.cs" />
+    <Compile Include="Entities\Movie.cs" />
+    <Compile Include="Entities\MovieActor.cs" />
+    <Compile Include="Entities\Rating.cs" />
+    <Compile Include="Entities\ShowTime.cs" />
+    <Compile Include="Entities\Ticket.cs" />
+    <Compile Include="Entities\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Entities\" />
     <Folder Include="Interfaces\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
