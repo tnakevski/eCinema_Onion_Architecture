@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eCinema.Core", "eCinema.Cor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eCinema.Infrastructure.DataMSSQL", "eCinema.Infrastructure.DataMSSQL\eCinema.Infrastructure.DataMSSQL.csproj", "{6E9AA772-15B2-475B-826D-1B0130EB3C83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eCinema.Infrastructure.AppServices", "eCinema.Infrastructure.AppServices\eCinema.Infrastructure.AppServices.csproj", "{64222A0E-B9B7-4D6E-BFE6-4175990C94F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6E9AA772-15B2-475B-826D-1B0130EB3C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E9AA772-15B2-475B-826D-1B0130EB3C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E9AA772-15B2-475B-826D-1B0130EB3C83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64222A0E-B9B7-4D6E-BFE6-4175990C94F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64222A0E-B9B7-4D6E-BFE6-4175990C94F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64222A0E-B9B7-4D6E-BFE6-4175990C94F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64222A0E-B9B7-4D6E-BFE6-4175990C94F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
