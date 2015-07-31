@@ -57,6 +57,7 @@
     <Compile Include="Repositories\ShowTimeRepository.cs" />
     <Compile Include="Repositories\TicketRepository.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
+    <Compile Include="UnityOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\eCinema.Core\eCinema.Core.csproj">

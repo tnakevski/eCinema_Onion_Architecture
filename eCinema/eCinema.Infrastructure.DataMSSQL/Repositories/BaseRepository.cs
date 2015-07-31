@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace eCinema.Infrastructure.DataMSSQL.Repositories
 {
-    public class BaseRepository<TEntity> : IBaseRepository<TEntity>
+    public abstract class BaseRepository<TEntity> : IBaseRepository<TEntity>
         where TEntity : class
     {
         eCinemaDbContext _context;
