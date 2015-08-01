@@ -10,7 +10,7 @@ namespace eCinema.Infrastructure.DataMSSQL.Repositories
     public abstract class BaseRepository<TEntity> : IBaseRepository<TEntity>
         where TEntity : class
     {
-        eCinemaDbContext _context;
+        protected eCinemaDbContext _context;
         public BaseRepository(eCinemaDbContext context)
         {
             _context = context;

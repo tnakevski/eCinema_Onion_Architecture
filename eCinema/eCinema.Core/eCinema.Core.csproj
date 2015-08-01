@@ -49,6 +49,7 @@
     <Compile Include="Entities\Ticket.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="Interfaces\IBaseRepository.cs" />
+    <Compile Include="Interfaces\IUserRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
